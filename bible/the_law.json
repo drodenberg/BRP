@@ -1,0 +1,84 @@
+{
+	"the_law": {
+		"weekday": "Monday",
+		"books": [
+			{
+				"name": "Genesis",
+				"readings": [
+					{"passage": "1-3"},
+					{"passage": "4-7"},
+					{"passage": "8-11"},
+					{"passage": "12-15"},
+					{"passage": "16-19"},
+					{"passage": "20-23"},
+					{"passage": "24-27"},
+					{"passage": "28-31"},
+					{"passage": "32-35"},
+					{"passage": "36-39"},
+					{"passage": "40-43"},
+					{"passage": "44-47"},
+					{"passage": "48-50"}
+				]
+			},
+			{
+				"name": "Exodus",
+				"readings": [
+					{"passage": "1-4"},
+					{"passage": "5-8"},
+					{"passage": "9-12"},
+					{"passage": "13-16"},
+					{"passage": "17-20"},
+					{"passage": "21-24"},
+					{"passage": "25-28"},
+					{"passage": "29-32"},
+					{"passage": "33-36"},
+					{"passage": "37-40"}
+				]
+			},
+			{
+				"name": "Leviticus",
+				"readings": [
+					{"passage": "1-3"},
+					{"passage": "4-6"},
+					{"passage": "7-9"},
+					{"passage": "10-12"},
+					{"passage": "13-15"},
+					{"passage": "16-18"},
+					{"passage": "19-21"},
+					{"passage": "22-24"},
+					{"passage": "25-27"}
+				]
+			},
+			{
+				"name": "Numbers",
+				"readings": [
+					{"passage": "1-4"},
+					{"passage": "5-8"},
+					{"passage": "9-12"},
+					{"passage": "13-16"},
+					{"passage": "17-20"},
+					{"passage": "21-24"},
+					{"passage": "25-28"},
+					{"passage": "29-32"},
+					{"passage": "33-36"}
+				]
+			},
+			{
+				"name": "Deuteronomy",
+				"readings": [
+					{"passage": "1-3"},
+					{"passage": "4-6"},
+					{"passage": "7-9"},
+					{"passage": "10-12"},
+					{"passage": "13-15"},
+					{"passage": "16-19"},
+					{"passage": "20-22"},
+					{"passage": "23-25"},
+					{"passage": "26-28"},
+					{"passage": "29-31"},
+					{"passage": "32-34"}
+				]
+			}
+		]
+	}
+}   

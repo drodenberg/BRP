@@ -1,0 +1,149 @@
+{
+	"prophecy": {
+		"weekday": "Friday",
+		"books": [
+			{
+				"name": "Isaiah",
+				"readings": [
+					{"passage": "1-6"},
+					{"passage": "7-11"},
+					{"passage": "12-17"},
+					{"passage": "18-22"},
+					{"passage": "23-28"},
+					{"passage": "29-33"},
+					{"passage": "34-39"},
+					{"passage": "40-44"},
+					{"passage": "45-50"},
+					{"passage": "51-55"},
+					{"passage": "56-61"},
+					{"passage": "62-66"}
+				]
+			},
+			{
+				"name": "Jeremiah",
+				"readings": [
+					{"passage": "1-6"},
+					{"passage": "7-11"},
+					{"passage": "12-16"},
+					{"passage": "17-21"},
+					{"passage": "22-26"},
+					{"passage": "27-31"},
+					{"passage": "32-36"},
+					{"passage": "37-41"},
+					{"passage": "42-26"},
+					{"passage": "47-52"}
+				]
+			},
+			{
+				"name": "Lamentations",
+				"readings": [
+					{"passage": "1-5"}
+				]
+			},
+			{
+				"name": "Ezekiel",
+				"readings": [
+					{"passage": "1-6"},
+					{"passage": "7-12"},
+					{"passage": "13-18"},
+					{"passage": "19-24"},
+					{"passage": "25-30"},
+					{"passage": "31-36"},
+					{"passage": "37-42"},
+					{"passage": "43-48"}
+				]
+			},
+			{
+				"name": "Daniel",
+				"readings": [
+					{"passage": "1-6"},
+					{"passage": "7-12"}
+				]
+			},
+			{
+				"name": "Hosea",
+				"readings": [
+					{"passage": "1-7"},
+					{"passage": "8-14"}
+				]
+			},
+			{
+				"name": "Joel",
+				"readings": [
+					{"passage": "1-3"}
+				]
+			},
+			{
+				"name": "Amos",
+				"readings": [
+					{"passage": "1-4"},
+					{"passage": "5-9"}
+				]
+			},
+			{
+				"name": "Obadiah",
+				"readings": [
+					{"passage": "1"}
+				]
+			},
+			{
+				"name": "Jonah",
+				"readings": [
+					{"passage": "1-4"}
+				]
+			},
+			{
+				"name": "Micah",
+				"readings": [
+					{"passage": "1-7"}
+				]
+			},
+			{
+				"name": "Nahum",
+				"readings": [
+					{"passage": "1-3"}
+				]
+			},
+			{
+				"name": "Habakkuk",
+				"readings": [
+					{"passage": "1-3"}
+				]
+			},
+			{
+				"name": "Zephaniah",
+				"readings": [
+					{"passage": "1-3"}
+				]
+			},
+			{
+				"name": "Haggai",
+				"readings": [
+					{"passage": "1-2"}
+				]
+			},
+			{
+				"name": "Zechariah",
+				"readings": [
+					{"passage": "1-7"},
+					{"passage": "8-14"}
+				]
+			},
+			{
+				"name": "Malachi",
+				"readings": [
+					{"passage": "1-4"}
+				]
+			},
+			{
+				"name": "Revelations",
+				"readings": [
+					{"passage": "1-6"},
+					{"passage": "7-11"},
+					{"passage": "12-17"},
+					{"passage": "18-22"}
+				]
+			}
+		]
+	}
+}   

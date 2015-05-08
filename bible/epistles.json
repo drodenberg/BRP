@@ -1,0 +1,164 @@
+{
+	"epistles": {
+		"weekday": "Sunday",
+		"books": [
+			{
+				"name": "Romans",
+				"readings": [
+					{"passage": "1-2"},
+					{"passage": "3-4"},
+					{"passage": "5-6"},
+					{"passage": "7-8"},
+					{"passage": "9-10"},
+					{"passage": "11-12"},
+					{"passage": "13-14"},
+					{"passage": "15-16"}
+				]
+			},
+			{
+				"name": "1 Corinthians",
+				"readings": [
+					{"passage": "1-2"},
+					{"passage": "3-4"},
+					{"passage": "5-6"},
+					{"passage": "7-8"},
+					{"passage": "9-10"},
+					{"passage": "11-12"},
+					{"passage": "13-14"},
+					{"passage": "15-16"}
+				]
+			},
+			{
+				"name": "2 Corinthians",
+				"readings": [
+					{"passage": "1-3"},
+					{"passage": "4-5"},
+					{"passage": "6-8"},
+					{"passage": "9-10"},
+					{"passage": "11-13"}
+				]
+			},
+			{
+				"name": "Galatians",
+				"readings": [
+					{"passage": "1-3"},
+					{"passage": "4-6"}
+				]
+			},
+			{
+				"name": "Ephesians",
+				"readings": [
+					{"passage": "1-3"},
+					{"passage": "4-6"}
+				]
+			},
+			{
+				"name": "Philippians",
+				"readings": [
+					{"passage": "1-2"},
+					{"passage": "3-4"}
+				]
+			},
+			{
+				"name": "Colossians",
+				"readings": [
+					{"passage": "1-2"},
+					{"passage": "3-4"}
+				]
+			},
+			{
+				"name": "1 Thessalonians",
+				"readings": [
+					{"passage": "1-3"},
+					{"passage": "4-5"}
+				]
+			},
+			{
+				"name": "2 Thessalonians",
+				"readings": [
+					{"passage": "1-3"}
+				]
+			},
+			{
+				"name": "1 Timothy",
+				"readings": [
+					{"passage": "1-3"},
+					{"passage": "4-6"}
+				]
+			},
+			{
+				"name": "2 Timothy",
+				"readings": [
+					{"passage": "1-2"},
+					{"passage": "3-4"}
+				]
+			},
+			{
+				"name": "Titus",
+				"readings": [
+					{"passage": "1-3"}
+				]
+			},
+			{
+				"name": "Philemon",
+				"readings": [
+					{"passage": "1"}
+				]
+			},
+			{
+				"name": "Hebrews",
+				"readings": [
+					{"passage": "1-4"},
+					{"passage": "5-7"},
+					{"passage": "8-10"},
+					{"passage": "11-13"}
+				]
+			},
+			{
+				"name": "James",
+				"readings": [
+					{"passage": "1-3"},
+					{"passage": "4-5"}
+				]
+			},
+			{
+				"name": "1 Peter",
+				"readings": [
+					{"passage": "1-3"},
+					{"passage": "4-5"}
+				]
+			},
+			{
+				"name": "2 Peter",
+				"readings": [
+					{"passage": "1-3"}
+				]
+			},
+			{
+				"name": "1 John",
+				"readings": [
+					{"passage": "1-3"},
+					{"passage": "4-5"}
+				]
+			},
+			{
+				"name": "2 John",
+				"readings": [
+					{"passage": "1"}
+				]
+			},
+			{
+				"name": "3 John",
+				"readings": [
+					{"passage": "1"}
+				]
+			},
+			{
+				"name": "Jude",
+				"readings": [
+					{"passage": "1"}
+				]
+			}
+		]
+	}
+}   

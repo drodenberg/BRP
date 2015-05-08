@@ -1,0 +1,120 @@
+{
+	"history": {
+		"weekday": "Tuesday",
+		"books": [
+			{
+				"name": "Joshua",
+				"readings": [
+					{"passage": "1-5"},
+					{"passage": "6-10"},
+					{"passage": "11-15"},
+					{"passage": "12-15"},
+					{"passage": "16-20"},
+					{"passage": "21-24"}
+				]
+			},
+			{
+				"name": "Judges",
+				"readings": [
+					{"passage": "1-6"},
+					{"passage": "7-11"},
+					{"passage": "12-16"},
+					{"passage": "17-21"}
+				]
+			},
+			{
+				"name": "Ruth",
+				"readings": [
+					{"passage": "1"}
+				]
+			},
+			{
+				"name": "1 Samuel",
+				"readings": [
+					{"passage": "1-5"},
+					{"passage": "6-10"},
+					{"passage": "11-15"},
+					{"passage": "16-20"},
+					{"passage": "21-25"},
+					{"passage": "26-31"}
+				]
+			},
+			{
+				"name": "2 Samuel",
+				"readings": [
+					{"passage": "1-4"},
+					{"passage": "5-9"},
+					{"passage": "10-14"},
+					{"passage": "15-19"},
+					{"passage": "20-24"}
+				]
+			},
+			{
+				"name": "1 Kings",
+				"readings": [
+					{"passage": "1-4"},
+					{"passage": "5-9"},
+					{"passage": "10-13"},
+					{"passage": "14-18"},
+					{"passage": "19-22"}
+				]
+			},
+			{
+				"name": "2 Kings",
+				"readings": [
+					{"passage": "1-5"},
+					{"passage": "6-10"},
+					{"passage": "11-15"},
+					{"passage": "16-20"},
+					{"passage": "21-25"}
+				]
+			},
+			{
+				"name": "1 Chronicles",
+				"readings": [
+					{"passage": "1-4"},
+					{"passage": "5-9"},
+					{"passage": "10-14"},
+					{"passage": "15-19"},
+					{"passage": "20-24"},
+					{"passage": "25-29"}
+				]
+			},
+			{
+				"name": "2 Chronicles",
+				"readings": [
+					{"passage": "1-5"},
+					{"passage": "6-10"},
+					{"passage": "11-15"},
+					{"passage": "16-20"},
+					{"passage": "21-24"},
+					{"passage": "25-28"},
+					{"passage": "29-32"},
+					{"passage": "33-36"}
+				]
+			},
+			{
+				"name": "Ezra",
+				"readings": [
+					{"passage": "1-5"},
+					{"passage": "6-10"}
+				]
+			},
+			{
+				"name": "Nehemiah",
+				"readings": [
+					{"passage": "1-4"},
+					{"passage": "5-9"},
+					{"passage": "10-13"}
+				]
+			},
+			{
+				"name": "Esther",
+				"readings": [
+					{"passage": "1-5"},
+					{"passage": "6-10"}
+				]
+			}
+		]
+	}
+}   

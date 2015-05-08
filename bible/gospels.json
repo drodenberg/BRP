@@ -1,0 +1,84 @@
+{
+	"gospels": {
+		"weekday": "Saturday",
+		"books": [
+			{
+				"name": "Matthew",
+				"readings": [
+					{"passage": "1-2"},
+					{"passage": "3-4"},
+					{"passage": "5-7"},
+					{"passage": "8-10"},
+					{"passage": "11-13"},
+					{"passage": "14-16"},
+					{"passage": "17-19"},
+					{"passage": "20-22"},
+					{"passage": "23-25"},
+					{"passage": "26-28"}
+				]
+			},
+			{
+				"name": "Mark",
+				"readings": [
+					{"passage": "1-2"},
+					{"passage": "3-4"},
+					{"passage": "5-6"},
+					{"passage": "7-8"},
+					{"passage": "9-10"},
+					{"passage": "11-12"},
+					{"passage": "13-14"},
+					{"passage": "15-16"}
+				]
+			},
+			{
+				"name": "Luke",
+				"readings": [
+					{"passage": "1-2"},
+					{"passage": "3-4"},
+					{"passage": "5-6"},
+					{"passage": "7-8"},
+					{"passage": "9-10"},
+					{"passage": "11-12"},
+					{"passage": "13-14"},
+					{"passage": "15-16"},
+					{"passage": "17-18"},
+					{"passage": "19-20"},
+					{"passage": "21-22"},
+					{"passage": "23-24"}
+				]
+			},
+			{
+				"name": "John",
+				"readings": [
+					{"passage": "1-2"},
+					{"passage": "3-4"},
+					{"passage": "5-6"},
+					{"passage": "7-9"},
+					{"passage": "10-12"},
+					{"passage": "13-15"},
+					{"passage": "16-18"},
+					{"passage": "19-21"},
+				]
+			},
+			{
+				"name": "Acts",
+				"readings": [
+					{"passage": "1-2"},
+					{"passage": "3-4"},
+					{"passage": "5-6"},
+					{"passage": "7-8"},
+					{"passage": "9-10"},
+					{"passage": "11-12"},
+					{"passage": "13-14"},
+					{"passage": "15-16"},
+					{"passage": "17-18"},
+					{"passage": "19-20"},
+					{"passage": "21-22"},
+					{"passage": "23-24"},
+					{"passage": "25-26"},
+					{"passage": "27-28"}
+				]
+			}
+		]
+	}
+}   

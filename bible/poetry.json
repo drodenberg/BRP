@@ -1,0 +1,79 @@
+{
+	"poetry": {
+		"weekday": "Thursday",
+		"books": [
+			{
+				"name": "Job",
+				"readings": [
+					{"passage": "1-2"},
+					{"passage": "3-4"},
+					{"passage": "5-6"},
+					{"passage": "7-8"},
+					{"passage": "9-10"},
+					{"passage": "11-12"},
+					{"passage": "13-14"},
+					{"passage": "15-16"},
+					{"passage": "17-18"},
+					{"passage": "19-20"},
+					{"passage": "21-22"},
+					{"passage": "23-24"},
+					{"passage": "25-26"},
+					{"passage": "27-28"},
+					{"passage": "29-30"},
+					{"passage": "31-32"},
+					{"passage": "33-34"},
+					{"passage": "35-36"},
+					{"passage": "37-38"},
+					{"passage": "39-40"},
+					{"passage": "41-42"},
+				]
+			},
+			{
+				"name": "Proverbs",
+				"readings": [
+					{"passage": "1"},
+					{"passage": "2-3"},
+					{"passage": "4"},
+					{"passage": "5-6"},
+					{"passage": "7"},
+					{"passage": "8-9"},
+					{"passage": "10"},
+					{"passage": "11-12"},
+					{"passage": "13"},
+					{"passage": "14-15"},
+					{"passage": "16"},
+					{"passage": "17-18"},
+					{"passage": "19"},
+					{"passage": "20-21"},
+					{"passage": "22"},
+					{"passage": "23-24"},
+					{"passage": "25"},
+					{"passage": "26-27"},
+					{"passage": "28"},
+					{"passage": "29-30"},
+					{"passage": "31"}
+				]
+			},
+			{
+				"name": "Ecclesiastes",
+				"readings": [
+					{"passage": "1-2"},
+					{"passage": "3-4"},
+					{"passage": "5-6"},
+					{"passage": "7-8"},
+					{"passage": "9-10"},
+					{"passage": "11-12"}
+				]
+			},
+			{
+				"name": "Song of Solomon",
+				"readings": [
+					{"passage": "1-2"},
+					{"passage": "3-4"},
+					{"passage": "5-6"},
+					{"passage": "7-8"}
+				]
+			}
+		]
+	}
+}   

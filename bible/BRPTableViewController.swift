@@ -52,22 +52,9 @@ class BRPTableViewController: UITableViewController {
         return cell
     }
     
-    /*func tableViewCellLongPressed(sender: UILongPressGestureRecognizer) {
-        if sender.state == UIGestureRecognizerState.Began && !tableView.editing {
-            let cell = sender.view as! BRP
-            
-            if let indexPath = tableView.indexPathForCell(cell){
-                displayLongPressOptions(cell.self)
-            }
-        }
-    }*/
-    
     func displayLongPressOptions(gesture: UILongPressGestureRecognizer) {
         var location = gesture.locationInView(tableView)
-        
         var indexPath = tableView.indexPathForRowAtPoint(location)
-        
-        
         
         var cell = self.tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath!) as! BRP
         cell.Book.text = readings[indexPath!.row].name!

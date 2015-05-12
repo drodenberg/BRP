@@ -30,7 +30,7 @@ class BRPTableViewController: UITableViewController {
             }
         }
         
-        var longPressd = UILongPressGestureRecognizer(target: self, action: "tableViewCellLongPressed:")
+        var longPressd = UILongPressGestureRecognizer(target: self, action: "displayLongPressOptions:")
         
         longPressd.minimumPressDuration = 0.5
         
@@ -43,34 +43,45 @@ class BRPTableViewController: UITableViewController {
         return readings.count
     }
     
-    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        var cell = self.tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as! UITableViewCell
-        cell.textLabel?.text = readings[indexPath.row].name! + readings[indexPath.row].readings!
+    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> BRP {
+        var cell = self.tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as! BRP
+        cell.Book.text = readings[indexPath.row].name!
+        cell.Chapters.text = readings[indexPath.row].readings!
+        cell.Chapters.textAlignment = .Right
         cell.accessoryType = UITableViewCellAccessoryType.DisclosureIndicator
         return cell
     }
     
-    func tableViewCellLongPressed(sender: UILongPressGestureRecognizer) {
+    /*func tableViewCellLongPressed(sender: UILongPressGestureRecognizer) {
         if sender.state == UIGestureRecognizerState.Began && !tableView.editing {
-            let cell = sender.view as! UITableViewCell
+            let cell = sender.view as! BRP
             
             if let indexPath = tableView.indexPathForCell(cell){
-                displayLongPressOptions(indexPath.row, cell: cell.self)
+                displayLongPressOptions(cell.self)
             }
         }
-    }
+    }*/
     
-    func displayLongPressOptions(row: Int, cell: UITableViewCell) {
+    func displayLongPressOptions(gesture: UILongPressGestureRecognizer) {
+        var location = gesture.locationInView(tableView)
+        
+        var indexPath = tableView.indexPathForRowAtPoint(location)
+        
+        
+        
+        var cell = self.tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath!) as! BRP
+        cell.Book.text = readings[indexPath!.row].name!
+        cell.Chapters.text = readings[indexPath!.row].readings!
+        cell.Chapters.textAlignment = .Right
+        cell.accessoryType = UITableViewCellAccessoryType.DisclosureIndicator
         
         let optionMenu = UIAlertController(title: nil, message: "Choose Option", preferredStyle: .ActionSheet)
-        
-        
         
         optionMenu.addAction(UIAlertAction(title: "Mark as Read", style: UIAlertActionStyle.Default, handler: {(action) in
             cell.accessoryType = UITableViewCellAccessoryType.Checkmark}))
         
         optionMenu.addAction(UIAlertAction(title: "Mark as Unread", style: UIAlertActionStyle.Default, handler: {(action) in
-            }))
+            cell.accessoryType = UITableViewCellAccessoryType.DisclosureIndicator}))
         
         optionMenu.addAction(UIAlertAction(title: "Cancel", style: UIAlertActionStyle.Cancel, handler: nil))
         

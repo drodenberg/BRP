@@ -22,6 +22,7 @@
 		731BC1261AFC039000EF56B7 /* the_law.json in Resources */ = {isa = PBXBuildFile; fileRef = 731BC11F1AFC039000EF56B7 /* the_law.json */; };
 		731BC1281AFC041900EF56B7 /* Readings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731BC1271AFC041900EF56B7 /* Readings.swift */; };
 		731BC12C1AFC05C900EF56B7 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731BC12B1AFC05C900EF56B7 /* SwiftyJSON.swift */; };
+		731BC1A11B02468900EF56B7 /* BRP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731BC1A01B02468900EF56B7 /* BRP.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		731BC11F1AFC039000EF56B7 /* the_law.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = the_law.json; sourceTree = "<group>"; };
 		731BC1271AFC041900EF56B7 /* Readings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Readings.swift; sourceTree = "<group>"; };
 		731BC12B1AFC05C900EF56B7 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		731BC1A01B02468900EF56B7 /* BRP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BRP.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				731BC1271AFC041900EF56B7 /* Readings.swift */,
 				731BC0F41AFBFF3600EF56B7 /* AppDelegate.swift */,
 				731BC0F81AFBFF3600EF56B7 /* Main.storyboard */,
+				731BC1A01B02468900EF56B7 /* BRP.swift */,
 				731BC0FB1AFBFF3600EF56B7 /* Images.xcassets */,
 				731BC0FD1AFBFF3600EF56B7 /* LaunchScreen.xib */,
 				731BC1181AFC035E00EF56B7 /* JSON */,
@@ -254,6 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				731BC1A11B02468900EF56B7 /* BRP.swift in Sources */,
 				731BC1281AFC041900EF56B7 /* Readings.swift in Sources */,
 				731BC1171AFC030500EF56B7 /* BRPTableViewController.swift in Sources */,
 				731BC0F51AFBFF3600EF56B7 /* AppDelegate.swift in Sources */,

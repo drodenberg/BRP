@@ -7,17 +7,55 @@
         <!--Epistles-->
         <scene sceneID="UsY-YD-Aho">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3bW-9g-mX7" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tableViewController title="Epistles" id="P9h-0q-wzf" customClass="BRPTableViewController" customModule="bible" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="69x-XE-HMQ">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="55" sectionHeaderHeight="22" sectionFooterHeight="22" id="69x-XE-HMQ">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="KvV-bV-Oop">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="55" id="KvV-bV-Oop" customClass="BRP" customModule="bible" customModuleProvider="target">
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KvV-bV-Oop" id="eDd-XI-2jz">
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ttp-B0-ZbH">
+                                            <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                            <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                <rect key="frame" x="13" y="16" width="214" height="21"/>
+                                            </variation>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Olw-cc-79y">
+                                            <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                            <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                <rect key="frame" x="261" y="16" width="79" height="21"/>
+                                            </variation>
+                                        </label>
+                                    </subviews>
+                                    <variation key="default">
+                                        <mask key="subviews">
+                                            <exclude reference="ttp-B0-ZbH"/>
+                                            <exclude reference="Olw-cc-79y"/>
+                                        </mask>
+                                    </variation>
+                                    <variation key="heightClass=regular-widthClass=compact">
+                                        <mask key="subviews">
+                                            <include reference="ttp-B0-ZbH"/>
+                                            <include reference="Olw-cc-79y"/>
+                                        </mask>
+                                    </variation>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="Book" destination="ttp-B0-ZbH" id="1Sf-iX-Ljw"/>
+                                    <outlet property="Chapters" destination="Olw-cc-79y" id="fjM-BC-8c5"/>
+                                    <segue destination="v5G-dN-DeH" kind="show" id="knJ-O7-h8Y"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -27,19 +65,19 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Epistles" id="yu3-BP-lCs"/>
                     <connections>
+                        <outlet property="view" destination="69x-XE-HMQ" id="Oax-uQ-dhw"/>
                         <segue destination="v5G-dN-DeH" kind="show" id="iVf-9I-fEf"/>
                     </connections>
                 </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="3bW-9g-mX7" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <view contentMode="scaleToFill" id="RuA-dr-VHY">
                     <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
             </objects>
-            <point key="canvasLocation" x="653" y="362"/>
+            <point key="canvasLocation" x="652.5" y="361.5"/>
         </scene>
-        <!--View Controller-->
+        <!--Romans 1 - 2-->
         <scene sceneID="RFQ-xD-DlL">
             <objects>
                 <viewController id="v5G-dN-DeH" sceneMemberID="viewController">
@@ -48,9 +86,39 @@
                         <viewControllerLayoutGuide type="bottom" id="leX-np-f11"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="VrU-Ni-tUc">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="88H-aK-umi">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <mutableString key="text">1 Paul, a servant of Christ Jesus, called to be an apostle and set apart for the gospel of God— 2 the gospel he promised beforehand through his prophets in the Holy Scriptures 3 regarding his Son, who as to his earthly life[a] was a descendant of David, 4 and who through the Spirit of holiness was appointed the Son of God in power[b] by his resurrection from the dead: Jesus Christ our Lord. 5 Through him we received grace and apostleship to call all the Gentiles to the obedience that comes from[c] faith for his name’s sake. 6 And you also are among those Gentiles who are called to belong to Jesus Christ.
+
+7 To all in Rome who are loved by God and called to be his holy people:
+
+Grace and peace to you from God our Father and from the Lord Jesus Christ.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="72" width="337" height="432"/>
+                                </variation>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="88H-aK-umi"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="88H-aK-umi"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Romans 1 - 2" id="YI9-It-4WF"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MkZ-mP-QcY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -73,4 +141,7 @@
             <point key="canvasLocation" x="-167" y="362"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="iVf-9I-fEf"/>
+    </inferredMetricsTieBreakers>
 </document>
